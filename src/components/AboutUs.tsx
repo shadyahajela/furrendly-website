@@ -61,7 +61,7 @@ export default function AboutUs() {
             zIndex: 2
           }}>
             <img
-              src="/images/Dog_sitting_in_studio_202606021923.jpeg"
+              src={(import.meta as any).env.BASE_URL + "images/Dog_sitting_in_studio_202606021923.jpeg"}
               alt="Dog in Studio"
               style={{
                 width: '100%',
@@ -84,7 +84,7 @@ export default function AboutUs() {
             zIndex: 3
           }}>
             <img
-              src="/images/Mini_poodle_portrait_studio_202606021924.jpeg"
+              src={(import.meta as any).env.BASE_URL + "images/Mini_poodle_portrait_studio_202606021924.jpeg"}
               alt="Mini Poodle Portrait"
               style={{
                 width: '100%',
