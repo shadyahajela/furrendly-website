@@ -1,0 +1,45 @@
+export interface Testimonial {
+  name: string;
+  role: string;
+  quote: string;
+  tag: string;
+}
+
+export const testimonials: Testimonial[] = [
+  {
+    name: 'ALEXANDER VOSS',
+    role: 'FOUNDER & INVESTOR',
+    quote: 'THE SERVICE FELT EFFORTLESS. EVERY DETAIL WAS ANTICIPATED BEFORE WE EVEN KNEW WE NEEDED IT.',
+    tag: 'MONACO WEEKEND'
+  },
+  {
+    name: 'ELENA MARCHETTI',
+    role: 'PROFESSIONAL SAILOR',
+    quote: 'IT COMBINED THE DISCIPLINE OF PERFORMANCE SAILING WITH THE COMFORT OF A PRIVATE RETREAT.',
+    tag: 'AEGEAN CRUISE'
+  },
+  {
+    name: 'JAMES HARRINGTON',
+    role: 'LUXURY TRAVELER',
+    quote: 'I HAVE CHARTERED GLOBALLY FOR FIFTEEN YEARS. YORCH DELIVERS A STANDARD I HAVE NOT ENCOUNTERED ELSEWHERE.',
+    tag: 'CARIBBEAN PASSAGE'
+  },
+  {
+    name: 'SOFIA LAURENT',
+    role: 'CREATIVE DIRECTOR',
+    quote: 'THE AESTHETIC IS IMPECCABLE. EVERY SPACE FEELS CURATED, NEVER GENERIC.',
+    tag: 'SUNSET SERIES'
+  },
+  {
+    name: 'MARCUS CHEN',
+    role: 'ENTREPRENEUR',
+    quote: 'WE HOSTED OUR ANNUAL BOARD MEETING ON AZURE HORIZON. THE SETTING ELEVATED EVERY CONVERSATION.',
+    tag: 'CORPORATE RETREAT'
+  },
+  {
+    name: 'ISABELLE DURAND',
+    role: 'FAMILY MEMBER',
+    quote: 'OUR CHILDREN EXPERIENCED THE OCEAN FOR THE FIRST TIME. THEY WILL NEVER FORGET IT.',
+    tag: 'ISLAND WEEKEND'
+  }
+];
