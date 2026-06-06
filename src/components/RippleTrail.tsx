@@ -11,7 +11,7 @@ export default function RippleTrail() {
   const containerRef = useRef<HTMLDivElement>(null);
   const ripplesRef = useRef<Ripple[]>([]);
   const lastMouseRef = useRef({ x: 0, y: 0 });
-  const animationFrameRef = useRef<number>();
+  const animationFrameRef = useRef<number | null>(null);
 
   useEffect(() => {
     const ripples: Ripple[] = [];
@@ -40,7 +40,7 @@ export default function RippleTrail() {
     };
 
     const animate = () => {
-      ripplesRef.current.forEach((ripple, index) => {
+      ripplesRef.current.forEach((ripple) => {
         if (ripple.active) {
           ripple.age += 0.012;
           if (ripple.age >= 1) {

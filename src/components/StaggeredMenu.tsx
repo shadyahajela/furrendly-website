@@ -107,7 +107,7 @@ export default function StaggeredMenu({ isOpen, onToggle, onFleetOpen }: Stagger
           {navItems.map((item, index) => (
             <li key={item}>
               <a
-                ref={(el) => (navItemsRef.current[index] = el)}
+                ref={(el) => { navItemsRef.current[index] = el; }}
                 onClick={() => handleNavItemClick(item)}
               >
                 {item}
