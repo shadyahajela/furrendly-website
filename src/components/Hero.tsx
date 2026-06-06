@@ -138,7 +138,7 @@ export default function Hero() {
                   boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
                 }}>
                   <img 
-                    src="/images/Pomeranian_headshot_studio_portrait_202606021924.jpeg" 
+                    src={(import.meta as any).env.BASE_URL + "images/Pomeranian_headshot_studio_portrait_202606021924.jpeg"} 
                     className="w-full h-full object-cover object-center"
                     style={{ transform: 'scale(1.1)' }}
                   />
@@ -155,7 +155,7 @@ export default function Hero() {
                   boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
                 }}>
                   <img 
-                    src="/images/Dog_headshot_on_pastel_background_202606021923.jpeg" 
+                    src={(import.meta as any).env.BASE_URL + "images/Dog_headshot_on_pastel_background_202606021923.jpeg"} 
                     className="w-full h-full object-cover object-center"
                     style={{ transform: 'scale(1.1)' }}
                   />
@@ -220,7 +220,7 @@ export default function Hero() {
               justifyContent: 'center'
             }}>
               <img
-                src="/images/Happy_dog_in_studio_202606021922.jpeg"
+                src={(import.meta as any).env.BASE_URL + "images/Happy_dog_in_studio_202606021922.jpeg"}
                 alt="Happy Dog Portrait"
                 style={{
                   width: '100%',
