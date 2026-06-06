@@ -12,21 +12,21 @@ export default function HowWeGroom() {
       description: 'Custom cuts, styling, and premium coat conditioning that leaves your furry friend feeling like the ultimate trendsetter.',
       bgClass: 'card-pink',
       circleColor: 'var(--accent-pink)',
-      image: '/images/Pomeranian_headshot_studio_portrait_202606021924.jpeg'
+      image: (import.meta as any).env.BASE_URL + 'images/Pomeranian_headshot_studio_portrait_202606021924.jpeg'
     },
     {
       title: 'WASH STATIONS',
       description: 'At our custom wash stations, bath time is a therapeutic, low-stress experience leaving your pup refreshed and fully revitalized!',
       bgClass: 'card-teal',
       circleColor: 'var(--accent-teal)',
-      image: '/images/Dog_emerging_from_pet_spa_202606021923.jpeg'
+      image: (import.meta as any).env.BASE_URL + 'images/Dog_emerging_from_pet_spa_202606021923.jpeg'
     },
     {
       title: 'FULL SERVICE',
       description: 'Our end-to-end premium spa and grooming menu ensures that all of your pet\'s specific breed needs are met with absolute care.',
       bgClass: 'card-yellow',
       circleColor: '#FFD93D',
-      image: '/images/Dog_headshot_on_pastel_background_202606021923.jpeg'
+      image: (import.meta as any).env.BASE_URL + 'images/Dog_headshot_on_pastel_background_202606021923.jpeg'
     }
   ];
 
