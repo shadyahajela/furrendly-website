@@ -32,7 +32,7 @@ export default function YachtSpecs() {
       </div>
 
       {/* 3-column grid */}
-      <div style={{
+      <div className="grid-3col" style={{
         display: 'grid',
         gridTemplateColumns: 'repeat(3, 1fr)',
         gap: '16px'
@@ -131,7 +131,7 @@ export default function YachtSpecs() {
               padding: '24px 24px 28px'
             }}>
               {/* 4-column stat grid */}
-              <div style={{
+              <div className="grid-4col" style={{
                 display: 'grid',
                 gridTemplateColumns: 'repeat(4, 1fr)',
                 gap: '8px 4px',

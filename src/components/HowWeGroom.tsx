@@ -55,7 +55,7 @@ export default function HowWeGroom() {
       </motion.h2>
 
       {/* 3-Card Service Grid */}
-      <div style={{
+      <div className="grid-3col" style={{
         display: 'grid',
         gridTemplateColumns: 'repeat(3, 1fr)',
         gap: '32px',

@@ -36,7 +36,7 @@ export default function SpecDrawer({ yachtId, onClose }: SpecDrawerProps) {
             animate={{ x: 0 }}
             exit={{ x: 400 }}
             transition={{ duration: 0.6, ease: [0.19, 1, 0.22, 1] }}
-            className="spec-drawer"
+            className="spec-drawer drawer-responsive"
             style={{
               position: 'fixed',
               top: 0,
@@ -102,7 +102,7 @@ export default function SpecDrawer({ yachtId, onClose }: SpecDrawerProps) {
                   }}>
                     {category.name}
                   </h3>
-                  <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
+                  <div className="form-grid-2col" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
                     {category.specs.map((spec, i) => (
                       <div key={i}>
                         <div style={{

@@ -17,7 +17,7 @@ export default function AboutUs() {
       padding: '80px clamp(24px, 6vw, 96px)'
     }}>
       {/* 2-Column Side-by-Side Flex/Grid */}
-      <div style={{
+      <div className="grid-2col" style={{
         display: 'grid',
         gridTemplateColumns: '1fr 1fr',
         gap: '80px',

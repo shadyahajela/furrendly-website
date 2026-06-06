@@ -5,7 +5,7 @@ export default function Footer() {
       padding: '60px clamp(24px, 6vw, 96px)',
       borderTop: '1px solid rgba(13, 38, 33, 0.1)'
     }}>
-      <div style={{
+      <div className="grid-4col" style={{
         display: 'grid',
         gridTemplateColumns: 'repeat(4, 1fr)',
         gap: '40px',

@@ -31,7 +31,7 @@ export default function Hero() {
       }} />
 
       {/* 2-column grid layout */}
-      <div style={{
+      <div className="hero-grid-responsive" style={{
         position: 'relative',
         zIndex: 1,
         display: 'grid',

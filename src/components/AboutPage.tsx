@@ -105,7 +105,7 @@ export default function AboutPage({ isOpen, onClose }: AboutPageProps) {
                 </p>
 
                 {/* Stats */}
-                <div style={{
+                <div className="grid-3col" style={{
                   display: 'grid',
                   gridTemplateColumns: 'repeat(3, 1fr)',
                   gap: '32px',

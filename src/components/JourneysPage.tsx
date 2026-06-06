@@ -85,7 +85,7 @@ export default function JourneysPage({ isOpen, onClose }: JourneysPageProps) {
                 </h1>
 
                 {/* Journey cards */}
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '24px' }}>
+                <div className="grid-2col" style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '24px' }}>
                   {[
                     { title: 'MEDITERRANEAN EXPLORER', duration: '7 DAYS', region: 'MEDITERRANEAN' },
                     { title: 'CARIBBEAN ESCAPE', duration: '10 DAYS', region: 'CARIBBEAN' },

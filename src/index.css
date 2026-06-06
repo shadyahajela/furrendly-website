@@ -118,3 +118,77 @@ html, body {
 .ticker-track:hover {
  animation-play-state: paused;
 }
+
+
+/* RESPONSIVE DESIGN SYSTEM - Mobile & Tablet Support (max-width: 768px) */
+
+/* Responsive Hero Grid */
+@media (max-width: 768px) {
+ .hero-grid-responsive {
+   grid-template-columns: 1fr !important;
+   gap: 30px !important;
+   padding: 50px 16px !important;
+ }
+}
+
+/* 3-Column Grids → 1-Column on Mobile */
+@media (max-width: 768px) {
+ .grid-3col {
+   grid-template-columns: 1fr !important;
+   gap: 20px !important;
+ }
+}
+
+/* 4-Column Grids → 1-Column on Mobile */
+@media (max-width: 768px) {
+ .grid-4col {
+   grid-template-columns: 1fr !important;
+   gap: 20px !important;
+ }
+}
+
+/* 2-Column Grids → 1-Column on Mobile */
+@media (max-width: 768px) {
+ .grid-2col {
+   grid-template-columns: 1fr !important;
+   gap: 20px !important;
+ }
+}
+
+/* Flex Responsive Layout */
+@media (max-width: 768px) {
+ .flex-responsive {
+   flex-direction: column !important;
+   gap: 20px !important;
+ }
+}
+
+/* Section Responsive Padding */
+@media (max-width: 768px) {
+ .section-responsive {
+   padding: 40px 16px !important;
+ }
+}
+
+/* Drawer Responsive */
+@media (max-width: 768px) {
+ .drawer-responsive {
+   width: 100% !important;
+   padding: 24px 16px !important;
+ }
+}
+
+/* Form Grid 2-Column → 1-Column */
+@media (max-width: 768px) {
+ .form-grid-2col {
+   grid-template-columns: 1fr !important;
+   gap: 12px !important;
+ }
+}
+
+/* Card Grid Auto */
+@media (max-width: 768px) {
+ .card-grid-auto {
+   grid-template-columns: 1fr !important;
+ }
+}
