@@ -193,7 +193,7 @@ export default function Hero() {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center'
-          }}
+          }} 
         >
           {/* Featured Hero Portrait - Circular frame */}
           <div style={{
